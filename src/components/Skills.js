@@ -3,10 +3,7 @@ import { DataConsumer } from '../context/context';
 import styled from 'styled-components';
 import SingleCard from './SingleCard';
 import bannerImg from '../images/snowskill.jpg';
-import ride from '../images/ride.svg';
-import art from '../images/art.svg';
 import milky from '../images/milkyway.jpg';
-import foot from '../images/foot.svg';
 
 export default function Skills() {
     return (
@@ -90,10 +87,6 @@ const SkillsWrapper = styled.div`
         top: 20%;
     }
     .skill_banner {
-        /* background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.4)), url(${bannerImg}) center/cover no-repeat fixed; */
-        /* background: var(--beige) ; */
-        /* height: 100vh; */
-        /* z-index: -1; */
         display: flex;
         flex-direction: column;
         justify-content: center;
