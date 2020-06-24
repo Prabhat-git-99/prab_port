@@ -1,10 +1,10 @@
 import React from 'react';
 import styled from 'styled-components';
-import mainBcg from '../../images/redmain.jpg';
+import mainBcg from '../../images/sunset.jpg';
 import SocialIcon from './SocialIcon';
 import Title from '../Title';
 import SVG from '../../images/snowman.svg';
-import ME from '../../images/me.svg';
+import ME from '../../images/me2.jpg';
 
 export default function Hero({img, max, children}) {
     return (
@@ -82,7 +82,7 @@ const HeroWrapper = styled.div`
     @media screen and (max-width: 700px) {
         min-height: 100vh;
     }  
-    background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.8)), url(${props => props.img}) center/cover no-repeat fixed;
+    background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.4)), url(${props => props.img}) center/cover no-repeat fixed;
     .hero_para {
         padding-right: 50px;
         padding-bottom: 5px;
@@ -209,8 +209,15 @@ const HeroWrapper = styled.div`
         }
         .img_container {
             /* box-sizing: border-box; */
+            margin: auto 30px;
+            width: 180px;
+            height: 160px;
             background: url(${ME}) center/cover no-repeat;
-            background-size: 50%;
+            background-size: 130px;
+            background-position-y: 10px;
+            /* background-size: 50%; */
+            border-radius: 100%;
+
         }
     }
 `;

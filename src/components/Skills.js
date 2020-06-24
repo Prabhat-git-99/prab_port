@@ -2,7 +2,7 @@ import React from 'react';
 import { DataConsumer } from '../context/context';
 import styled from 'styled-components';
 import SingleCard from './SingleCard';
-import bannerImg from '../images/snowskill.jpg';
+// import bannerImg from '../images/snowskill.jpg';
 import milky from '../images/milkyway.jpg';
 
 export default function Skills() {

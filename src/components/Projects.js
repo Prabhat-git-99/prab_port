@@ -2,7 +2,7 @@ import React from 'react';
 import ProjectCard from './ProjectCard';
 import { DataConsumer } from '../context/context';
 import styled from 'styled-components';
-import bg from '../images/sunset.jpg';
+import bg from '../images/redmain.jpg';
 
 export default function Projects() {
     return (
