@@ -1,9 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import mainBcg from '../../images/redmain.jpg';
-// import { DataConsumer } from '../../context/context';
 import SocialIcon from './SocialIcon';
-// import HomeBottom from './HomeBottom';
 import Title from '../Title';
 import SVG from '../../images/snowman.svg';
 import ME from '../../images/me.svg';

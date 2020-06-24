@@ -9,7 +9,6 @@ import bootstrap from '../images/bootstrap.svg';
 import node from '../images/nodejs.svg';
 import javascript from '../images/javascript.svg';
 import cpp from '../images/cpp.svg';
-import { FaBootstrap } from 'react-icons/fa';
 import wordpress from '../images/wordpress.svg';
 import pyqt from '../images/pyqt.svg';
 import datascience from '../images/datascience.svg';

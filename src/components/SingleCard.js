@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 
 export default function SingleCard({name,image,category,background,clip}) {
-    console.log(image);
+    // console.log(image);
     return (
         <SingleCardWrapper image={image} >
         <div className='card_container'>

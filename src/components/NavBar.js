@@ -9,7 +9,7 @@ export default function NavBar() {
         <DataConsumer>
             {value => {
                 const {links} = value;
-                console.log(links);
+                // console.log(links);
                 return(
                     <NavWrapper>
                         <nav className='nav-bar'>

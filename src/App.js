@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import './App.css';
 import Home from './pages/Home';
 import Contact from './pages/ContactPage';
-import Service from './pages/ServicePage';
+import Education from './pages/EducationPage';
 import Project from './pages/ProjectPage';
 import Error from './pages/ErrorPage';
 import Skills from './pages/SkillPage';
@@ -16,7 +16,7 @@ export default class App extends Component {
       <Navbar />
       <Switch>
         <Route path='/' exact component={Home} />
-        <Route path='/service' exact component={Service} />
+        <Route path='/education' exact component={Education} />
         <Route path='/project' exact component={Project} />
         <Route path='/skills' exact component={Skills} />
         <Route path='/contact' exact component={Contact} />

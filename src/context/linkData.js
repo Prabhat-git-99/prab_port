@@ -16,8 +16,8 @@ export const linkData = [
     },
     {
         id:4,
-        path: '/service',
-        text: 'service'
+        path: '/education',
+        text: 'education'
     },
     {
         id:5,

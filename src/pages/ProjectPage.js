@@ -1,9 +1,8 @@
-import React from 'react'
+import React from 'react';
+import Projects from '../components/Projects';
 
 export default function ProjectPage() {
     return (
-        <div>
-            from project
-        </div>
-    )
+        <Projects />
+    );
 }
